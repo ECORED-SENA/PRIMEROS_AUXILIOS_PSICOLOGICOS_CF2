@@ -1,0 +1,263 @@
+.curso-main-container > .container
+  overflow-x: initial
+  
+//////// CARDS
+
+.cts-banner
+  background-color: #E8E8E8
+  &::before
+    background-color: #133D60
+
+.crd--hover
+  &:hover
+    background-color: #95C0D9
+    border-radius: 25px
+  
+
+.tarjeta--mint
+  background-color: #D2F3E8
+.grad1
+  background: linear-gradient(180deg, rgba(19,61,96,1) 0%, rgba(27,93,149,1) 100%)
+
+.roudBorders
+  border-radius: 25px
+.crd
+  width: 100%
+  position: relative
+  padding: 2rem
+  &--100
+    height: 100%
+
+  &.crd-white
+    background-color: #ffffff  
+    border-radius: 25px
+  &.crd-gray
+    background-color: #F6F6F6
+    border-radius: 25px
+  &.crd-verde
+    background-color: #D2F3E8
+  &.crd-darkBlue
+    background-color: #133D60
+  &.crd-deepBlue
+    background-color: #003560    
+  &.crd-blue
+    background-color: #0373D0
+  &.crd-lightBlue
+    background-color: #95C0D9
+
+.h-center
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
+.blt-blue
+  li
+    i
+      color: #008BFD !important
+
+//////// FLIP CARDS
+
+.fondo-tarjetas-flip
+  position: absolute
+  width: 90%
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+
+.flip 
+  width: 400px
+  height: 345px
+  text-align: center
+  perspective: 600px   
+
+.flip-content 
+  width: 100%
+  height: 100%
+  transition: transform 0.4s
+  transform-style: preserve-3d
+  border-radius: 25px
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+
+.flip:hover .flip-content 
+  transform: rotateY(180deg)
+  transition: transform 0.3s
+
+.flip-front, .flip-back 
+  position: absolute
+  height: 100%
+  width: 100%  
+  backface-visibility: hidden  
+  color: #fff  
+
+.flip-back 
+  transform: rotateY(180deg) 
+  border-radius: 25px
+  background-color: white 
+  
+  
+//////// CUSTOM PARAGRAPH
+
+.cp
+  display: flex
+  .waves
+    width: 85px
+    margin-bottom: 7px
+    margin-right: 15px
+    background-image: url('../assets/curso/warpLines.svg')    
+    background-repeat: repeat-y
+  .waves--h
+    width: 60px
+    margin-bottom: 5px
+    margin-right: 12px
+    background-image: url('../assets/curso/warpLines_01.svg')    
+    background-repeat: repeat-y
+  .dots
+    width: 68px    
+    margin-right: 15px
+    background-image: url('../assets/curso/dots.svg')    
+    background-repeat: repeat-y
+    background-size: 83px auto
+  // .icon_01
+  //   width: 90px      
+  //   margin-right: 15px
+  //   background-image: url('../assets/curso/tema2/t2_08.svg')    
+  //   background-repeat: none
+  //   background-size: contain
+  p, .cp_title   
+    flex: 1 
+
+///////// TEXT 
+.txt-blue
+  color: #008BFD !important
+  font-weight: 600
+
+.txt-mint
+  color: #5BD3A9 !important
+
+.pill 
+  display: inline-block
+  padding: 0.5rem 1rem
+  color: white !important
+  border-radius: 25px
+  background-color: #008BFD
+  
+
+//////// CUSTOM BG
+
+.clrBG
+  position: relative
+  p, row, figure
+    position: relative
+  padding: 2rem 0
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: -3rem
+    width: calc( 100% + 6rem )
+    height: 100%
+  &__mint
+    &::before
+      background-color: #D2F3E8
+  &__gradient1
+    &::before
+      background: linear-gradient(180deg, rgba(235,246,255,1) 0%, rgba(255,255,255,1) 100%)
+
+
+
+.bg_waves_01
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/bg_wave_01.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: top
+
+.blueWaves
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/blueWaves.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: top
+
+.bg_waves_avatar
+  position: relative
+  .row, figure, p, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    left: -3rem 
+    width: calc( 100%)
+    height: 100%       
+    background-image: url('../assets/curso/bg_wave_avatar_01.svg')
+    background-size: contain
+    background-repeat: no-repeat
+
+.bg_img_01
+  width: 100%
+  height: 100%
+  background-image: url('../assets/curso/tema1/t1_12.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top center
+
+.bgSlider
+  width: 100%
+  height: 100%
+  background-image: url('../assets/curso/tema4/t4_15.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top right
+  border-radius: 25px
+
+@media (max-width: 997px)
+  .bg_img_01
+    height: 250px
+    background-size: cover
+
+
+/////// CUSTOM INFOGRAFIA
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  opacity: 1 !important
+
+.icrd-orange
+  background-color: #FFE8C8    
+
+.linea-tiempo-d__item__content , .linea-tiempo-d__item__number
+  background-color: #95C0D9 !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  background-color: #133D60 !important
+
+.horizontal-scroll
+  align-items: stretch !important
+
+//////// CUSTOM ACORDEON
+
+.acordion__activo
+  .acordion__accion__btn--a
+    background-color: #133D60
+    i
+      color: white
+
+///////// TABLA CUSTOM
+
+td
+  vertical-align: top
