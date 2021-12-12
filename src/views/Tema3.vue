@@ -10,7 +10,7 @@
 
     .bloque-texto-a.cts-banner.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
+        .col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/tema3/t3_01.svg", alt="alt").m-auto
         .col-lg-8
@@ -29,7 +29,7 @@
         .crd.crd-verde        
           p.mb-0 Es importante pensar: #[span.txt-blue ¿Qué se debe esperar ante una crisis?], de acuerdo con lo planteado por Erausquin, Denegri y Michele (2014), dentro de un estado de estrés deben normalizarse ciertas reacciones que son respuestas naturales del organismo frente al peligro, las siguientes son reacciones esperables ante un momento de crisis o estrés:
 
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/tema3/t3_02.jpg", alt="alt").m-auto
 
@@ -136,7 +136,7 @@
             p.text-center Pesadillas
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.mb-5.mb-lg-0
+      .col-lg-4.mb-5.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/tema3/t3_20.png", alt="alt", style="width:350px;").m-auto
       .col-lg-8

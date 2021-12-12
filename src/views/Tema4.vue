@@ -34,7 +34,7 @@
             .waves.d-none.d-lg-block
             .cp_title                  
               p.mb-0 Es importante conocer la familia en la sociedad actual, así Llavona y Méndez (2015), describen nueve tipos de familia:
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_02.svg", alt="alt").m-auto         
         .col-lg-7
           SlyderF.mb-5(columnas="col-lg-6 col-md-6")
@@ -137,7 +137,7 @@
 
     .bloque-texto-a.cts-banner.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
+        .col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/tema4/t4_12.svg", alt="alt").m-auto
         .col-lg-8
@@ -148,7 +148,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/s_DM5SaTgwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
 
     separador
 
@@ -168,6 +168,8 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--mint")
             .row(titulo="Integración familiar")             
               p Los miembros de la familia se sienten parte de un grupo y logran desarrollarse sanamente.
+            .row(titulo="Definición de valores")             
+              p La dinámica familiar de forma natural construye valores a través del ejemplo, del trato de las acciones cotidianas.
             .row(titulo="Límites, normas y figuras de autoridad")             
               p Estos aspectos son claros, bien definidos y cada uno de los integrantes de la familia conoce su límite frente al otro.
             .row(titulo="Definición de hábitos saludables")             
@@ -178,7 +180,7 @@
               p Los integrantes de la familia reconocen sus logros, se estimulan y motivan de forma asertiva.
             .row(titulo="Gestión positiva de conflictos")             
               p Los conflictos hacen parte de la convivencia y en la familia son muy normales, sin embargo, su manejo y resolución hacen la diferencia; cuando se logra entender los problemas, trabajarlos, hablarlos e incluso buscar ayuda para solucionarlos, los conflictos no se potencializan.
-        .col-lg-5
+        .col-lg-5(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/tema4/t4_13.png", alt="alt", style="width:500px;").m-auto
 
@@ -193,7 +195,7 @@
         p #[span.txt-blue La violencia al interior de la familia en muchas ocasiones se naturaliza], es decir que los comportamientos de agresión, violencia psicológica manifestada en los insultos y humillaciones, terminan siendo un comportamiento normal que a pesar de dañar psicológicamente, se repite generación tras generación.
         .crd.crd-verde
           p.mb-0 Cuando un hecho de violencia intrafamiliar ocurre y se vulneran los derechos de algún miembro de la familia, se debe #[span.txt-blue saber que existen unos derechos que protegen a la víctima: derecho a ser escuchado, a tener una atención digna, a recibir asesoría jurídica y psicológica, a solicitar o recibir medidas de protección].
-      .col-lg-6
+      .col-lg-6(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/tema4/t4_14.jpg", alt="alt", style="width:600px;")
 
@@ -253,7 +255,7 @@
             i.fas.fa-check-circle
             | Personería más cercana.
 
-      .col-lg-6 
+      .col-lg-6(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/tema4/t4_18.png", alt="alt").m-auto
 
@@ -271,27 +273,27 @@
             .crd.crd--100.crd-gray.p-4
               .row.justify-content-center.mb-4
                 .col-8
-                  img(src='@/assets/curso/tema4/t4_19.svg' alt='AvatarTop',style="width:90px;").m-auto              
+                  img(src='@/assets/curso/tema4/t4_20.svg' alt='AvatarTop',style="width:90px;").m-auto              
               p.text-center IPS
             .crd.crd--100.crd-gray.p-4
               .row.justify-content-center.mb-4
                 .col-8
-                  img(src='@/assets/curso/tema4/t4_19.svg' alt='AvatarTop',style="width:90px;").m-auto              
+                  img(src='@/assets/curso/tema4/t4_21.svg' alt='AvatarTop',style="width:90px;").m-auto              
               p.text-center CAMI (Centro de Atención Médica Inmediata)
             .crd.crd--100.crd-gray.p-4
               .row.justify-content-center.mb-4
                 .col-8
-                  img(src='@/assets/curso/tema4/t4_19.svg' alt='AvatarTop',style="width:90px;").m-auto              
+                  img(src='@/assets/curso/tema4/t4_22.svg' alt='AvatarTop',style="width:90px;").m-auto              
               p.text-center UPA (Unidad Primaria de Atención)
             .crd.crd--100.crd-gray.p-4
               .row.justify-content-center.mb-4
                 .col-8
-                  img(src='@/assets/curso/tema4/t4_19.svg' alt='AvatarTop',style="width:90px;").m-auto              
+                  img(src='@/assets/curso/tema4/t4_23.svg' alt='AvatarTop',style="width:90px;").m-auto              
               p.text-center ABA (Unidad Básica de atención)
 
 
       .row
-        .col-lg-6.mb-4.mb-lg-0
+        .col-lg-6.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/tema4/t4_24.jpg", alt="alt").m-auto
         .col-lg-6
@@ -320,73 +322,74 @@
               | Línea 195: Secretaría general.
             li 
               i.fas.fa-check-circle
-              | www.policia.gov.co
+              | #[a(href='https://www.policia.gov.co/', target="_blank").cusomLink www.policia.gov.co]
             li 
               i.fas.fa-check-circle
-              | www.fiscalia.gov.co/colombia/
+              | #[a(href='https://www.fiscalia.gov.co/colombia/', target="_blank").cusomLink www.fiscalia.gov.co/colombia]              
+            
 
-    separador
+      separador
 
-    #t_4_6.titulo-segundo.color-acento-contenido
-      h2 4.6 PAP en familias
+      #t_4_6.titulo-segundo.color-acento-contenido
+        h2 4.6 PAP en familias
 
-    .row
-      .col-xl-5.mb-4.mb-xl-0
-        p.mb-4 #[span.txt-blue Los primeros auxilios psicológicos como herramienta de intervención se consideran flexibles y adaptables a diferentes condiciones y situaciones], esto aplica también para casos en el contexto de la familia, donde las guías y protocolos estudiados son aplicables y adaptables, sin embargo, es necesario tener en cuenta los siguientes aspectos:
+      .row
+        .col-xl-5.mb-4.mb-xl-0
+          p.mb-4 #[span.txt-blue Los primeros auxilios psicológicos como herramienta de intervención se consideran flexibles y adaptables a diferentes condiciones y situaciones], esto aplica también para casos en el contexto de la familia, donde las guías y protocolos estudiados son aplicables y adaptables, sin embargo, es necesario tener en cuenta los siguientes aspectos:
 
-        img(src='@/assets/curso/tema4/t4_25.jpg' alt='',style="width:500px;").m-auto 
+          img(src='@/assets/curso/tema4/t4_25.jpg' alt='',style="width:500px;").m-auto(data-aos="zoom-in")
 
-      .col-xl-7
-        SlyderF.mb-5(columnas="col-lg-6")
-          .crd.crd--100.crd-gray.p-4
-            .row.justify-content-center.mb-4
-              .col-8
-                img(src='@/assets/curso/tema4/t4_26.svg' alt='AvatarTop',style="width:90px;").m-auto
-            h4.text-center Contexto
-            p.text-center Comprender la vida de la familia, su realidad desde lo social, económico, relacional y tipo de familia.
-          .crd.crd--100.crd-gray.p-4
-            .row.justify-content-center.mb-4
-              .col-8
-                img(src='@/assets/curso/tema4/t4_27.svg' alt='AvatarTop',style="width:90px;").m-auto
-            h4.text-center Edad de la familia
-            p.text-center Establecer si es una familia joven o madura, edad de los padres hijos, ya que esto determina el tipo de conflictos que se gestan al interior de la familia.
-          .crd.crd--100.crd-gray.p-4
-            .row.justify-content-center.mb-4
-              .col-8
-                img(src='@/assets/curso/tema4/t4_28.svg' alt='AvatarTop',style="width:90px;").m-auto
-            h4.text-center Tipo de conflicto
-            p.text-center Entender las circunstancias que han llevado a la desestabilización del sistema familiar y los antecedentes del mismo.
-          .crd.crd--100.crd-gray.p-4
-            .row.justify-content-center.mb-4
-              .col-8
-                img(src='@/assets/curso/tema4/t4_29.svg' alt='AvatarTop',style="width:90px;").m-auto
-            h4.text-center Alerta frente a circunstancias de violencia o abuso
-            p.text-center La persona que realiza la aplicación de los PAP en familia debe determinar si la familia está abusando o maltratando a algunos a varios de sus integrantes, si hay alguna sospecha de esto, se deben activar las rutas correspondientes.
-          .crd.crd--100.crd-gray.p-4
-            .row.justify-content-center.mb-4
-              .col-8
-                img(src='@/assets/curso/tema4/t4_30.svg' alt='AvatarTop',style="width:90px;").m-auto
-            h4.text-center Apertura
-            p.text-center La familia debe estar dispuesta y abierta a recibir ayuda, permitiendo que un tercero intervenga en la gestión de estrés y crisis familiar.
+        .col-xl-7
+          SlyderF.mb-5(columnas="col-lg-6")
+            .crd.crd--100.crd-gray.p-4
+              .row.justify-content-center.mb-4
+                .col-8
+                  img(src='@/assets/curso/tema4/t4_26.svg' alt='AvatarTop',style="width:90px;").m-auto
+              h4.text-center Contexto
+              p.text-center Comprender la vida de la familia, su realidad desde lo social, económico, relacional y tipo de familia.
+            .crd.crd--100.crd-gray.p-4
+              .row.justify-content-center.mb-4
+                .col-8
+                  img(src='@/assets/curso/tema4/t4_27.svg' alt='AvatarTop',style="width:90px;").m-auto
+              h4.text-center Edad de la familia
+              p.text-center Establecer si es una familia joven o madura, edad de los padres hijos, ya que esto determina el tipo de conflictos que se gestan al interior de la familia.
+            .crd.crd--100.crd-gray.p-4
+              .row.justify-content-center.mb-4
+                .col-8
+                  img(src='@/assets/curso/tema4/t4_28.svg' alt='AvatarTop',style="width:90px;").m-auto
+              h4.text-center Tipo de conflicto
+              p.text-center Entender las circunstancias que han llevado a la desestabilización del sistema familiar y los antecedentes del mismo.
+            .crd.crd--100.crd-gray.p-4
+              .row.justify-content-center.mb-4
+                .col-8
+                  img(src='@/assets/curso/tema4/t4_29.svg' alt='AvatarTop',style="width:90px;").m-auto
+              h4.text-center Alerta frente a circunstancias de violencia o abuso
+              p.text-center La persona que realiza la aplicación de los PAP en familia debe determinar si la familia está abusando o maltratando a algunos a varios de sus integrantes, si hay alguna sospecha de esto, se deben activar las rutas correspondientes.
+            .crd.crd--100.crd-gray.p-4
+              .row.justify-content-center.mb-4
+                .col-8
+                  img(src='@/assets/curso/tema4/t4_30.svg' alt='AvatarTop',style="width:90px;").m-auto
+              h4.text-center Apertura
+              p.text-center La familia debe estar dispuesta y abierta a recibir ayuda, permitiendo que un tercero intervenga en la gestión de estrés y crisis familiar.
 
 
-        p A continuación, se presentan las estrategias de autorregulación familiar que la persona que realiza la aplicación de PAP puede ayudar frente a situaciones de estrés psicológico en un entorno familiar:
-        ul.lista-ul--color.blt-blue
-          li 
-            i.fas.fa-check-circle
-            | Reestructuración: capacidad de la familia para redefinir los eventos estresantes para hacerlos más manejables. 
-          li 
-            i.fas.fa-check-circle
-            | Evaluación pasiva: capacidad familiar para aceptar asuntos problemáticos, minimizando su reactividad.  
-          li 
-            i.fas.fa-check-circle
-            | Atención de apoyo social: capacidad de la familia para ocuparse activamente en la obtención de apoyo por parte de parientes, amigos, vecinos y familia extensa.
-          li 
-            i.fas.fa-check-circle
-            | Búsqueda de apoyo espiritual: habilidad familiar para obtener apoyo espiritual. 
-          li 
-            i.fas.fa-check-circle
-            | Movilización familiar: la habilidad familiar para buscar recursos en la comunidad y aceptar ayuda de otros (Macías, Madariaga, Valle y Zambrano, 2013). 
+          p A continuación, se presentan las estrategias de autorregulación familiar que la persona que realiza la aplicación de PAP puede ayudar frente a situaciones de estrés psicológico en un entorno familiar:
+          ul.lista-ul--color.blt-blue
+            li 
+              i.fas.fa-check-circle
+              | Reestructuración: capacidad de la familia para redefinir los eventos estresantes para hacerlos más manejables. 
+            li 
+              i.fas.fa-check-circle
+              | Evaluación pasiva: capacidad familiar para aceptar asuntos problemáticos, minimizando su reactividad.  
+            li 
+              i.fas.fa-check-circle
+              | Atención de apoyo social: capacidad de la familia para ocuparse activamente en la obtención de apoyo por parte de parientes, amigos, vecinos y familia extensa.
+            li 
+              i.fas.fa-check-circle
+              | Búsqueda de apoyo espiritual: habilidad familiar para obtener apoyo espiritual. 
+            li 
+              i.fas.fa-check-circle
+              | Movilización familiar: la habilidad familiar para buscar recursos en la comunidad y aceptar ayuda de otros (Macías, Madariaga, Valle y Zambrano, 2013). 
 
         
 

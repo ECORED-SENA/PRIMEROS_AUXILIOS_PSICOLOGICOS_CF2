@@ -17,7 +17,7 @@
             .crd.crd-verde        
               p.mb-0 Las condiciones para activar rutas de atención en casos de crisis son: observar, escuchar y conectar, las que se explican con mayor detalle a continuación.
 
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-up")
         figure
           img(src="@/assets/curso/tema1/t1_01.png", alt="alt").m-auto
 
@@ -25,22 +25,22 @@
 
     .row.justify-content-center.gx-0.mb-4
       .col-lg-4
-        .crd.crd-darkBlue.crd--100
+        .crd.crd-darkBlue.crd--100(data-aos="flip-right")
           figure.mb-4
             img(src="@/assets/curso/tema1/t1_02.svg", alt="alt", style="width:100px;")
           h4.txt-mint.mb-4 Seguridad del entorno
           p.text-white Determinar los peligros que pueden estar presentes en la zona, por ejemplo, que el conflicto que desencadena la crisis esté activo o que en caso de una emergencia por desastre natural haya causado daños estructurales que pueden poner en peligro la vida de las personas, incluso la de quien acude a prestar la ayuda. 
       .col-lg-4
-        .crd.crd-blue.crd--100
+        .crd.crd-blue.crd--100(data-aos="flip-right")
           figure.mb-4
             img(src="@/assets/curso/tema1/t1_03.svg", alt="alt", style="width:100px;")
-          h4.txt-mint.mb-4 Seguridad del entorno
+          h4.txt-mint.mb-4 Ayuda en necesidades básicas urgentes
           p.text-white Es necesario identificar si se presentan heridas, si están expuestas, sin ropa, si requieren una ayuda especializada o si pueden sufrir de alguna forma de discriminación por una necesidad especial que presentan, ya sea por condiciones de discapacidades físicas o mentales o pertenencia a un grupo étnico.  
       .col-lg-4
-        .crd.crd-darkBlue.crd--100
+        .crd.crd-darkBlue.crd--100(data-aos="flip-right")
           figure.mb-4
             img(src="@/assets/curso/tema1/t1_04.svg", alt="alt", style="width:100px;")
-          h4.txt-mint.mb-4 Seguridad del entorno
+          h4.txt-mint.mb-4 Nivel y gravedad de la crisis 
           p.text-white La observación debe permitir determinar el estado emocional y psicológico de la persona, si la alteración es grave y presenta síntomas evidentes de agresividad, o está totalmente alejada de la realidad, tiembla y no responde con atención a las preguntas y estímulos, es necesario solicitar y activar las rutas de atención en salud para ser valorado en servicios de urgencias. Si en la crisis usted determina que puede ser manejada en sitio, inicie el protocolo.
 
     .cp.mb-5
@@ -149,7 +149,7 @@
             .col-12
               p Es necesario ayudar a las personas a generar procesos adaptativos para enfrentar el problema.
 
-      .col-lg-4.d-none.d-lg-block
+      .col-lg-4.d-none.d-lg-block(data-aos="zoom-in-up")
         figure
           img(src="@/assets/curso/tema1/t1_08.jpg", alt="alt").m-auto
 
@@ -192,7 +192,7 @@
       .row.justify-content-center.mb-5
         .col-lg-5
           p.mb-4 En el siguiente recurso de aprendizaje se describe el significado de cada letra del protocolo, con una descripción corta para mejor comprensión (adaptado de García, Ruiz, Salinero y Vicario, 2019, p. 252):
-          figure.mb-4
+          figure.mb-4(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/t1_09.svg", alt="alt", style="width:500px;").m-auto
         .col-lg-7
           LineaTiempoD.color-primario
@@ -236,7 +236,7 @@
               p Animar y promover la vuelta a la independencia, con acompañamiento si es necesario, así como valorar la necesidad de derivación a especialista en el hospital.
 
             .row(numero="SE" titulo="Seguimiento")              
-              p Animar y promover la vuelta a la independencia, con acompañamiento si es necesario, así como valorar la necesidad de derivación a especialista en el hospital.
+              p Si procede, planificar un seguimiento a corto y mediano plazo. 
 
 
     separador
@@ -244,7 +244,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Etapas
 
-    p.mb-5 A continuación, se abordarán las etapas de protocolo #[span.txt-blue ACERCARSE], con el fin de brindar elementos clave en la aplicación del protocolo, tomando como referencia el manual presentado por Federación Internacional de Sociedades de la Cruz Roja y de la Media Luna Roja (2003), en el texto Apoyo psicológico basado en la comunidad.
+    p.mb-5 A continuación, se abordarán las etapas de protocolo #[span.txt-blue ACERCARSE], con el fin de brindar elementos clave en la aplicación del protocolo, tomando como referencia el manual presentado por Federación Internacional de Sociedades de la Cruz Roja y de la Media Luna Roja (2003), en el texto #[i Apoyo psicológico basado en la comunidad].
 
     .bg_waves_avatar.mb-5
       .row.justify-content-center
@@ -276,10 +276,10 @@
             .crd.crd-verde
               figure.mb-4
                 img(src="@/assets/curso/dots.svg", alt="alt", style="width:65px;")
-              p.mb-0 De igual manera, en esta etapa se requiere establecer una relación, intentando consolar, tranquilizar, aceptando las características individuales y lo más importante, sin emitir juicios de valor, así la persona atendida haya sido víctima de situaciones muy graves, quien presta los PAP, no es juez y no es autoridad.
+              p.mb-0 #[span.txt-blue De igual manera, en esta etapa se requiere establecer una relación, intentando consolar, tranquilizar, aceptando las características individuales y lo más importante, sin emitir juicios de valor, así la persona atendida haya sido víctima de situaciones muy graves, quien presta los PAP, no es juez y no es autoridad.]
 
     .row.justify-content-center.mb-4.mb-lg-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="zoom-in")
         .bg_img_01
       .col-lg-5
         figure.mb-4.d-none.d-lg-block
@@ -360,14 +360,14 @@
       p.mb-5 La persona afectada debe comprender lo ocurrido y hacer conciencia de lo que se está viviendo, para ello se debe:
 
       .row.justify-content-center
-        .col-7.col-lg-3.mb-4.mb-lg-0
-          .crd.crd-darkBlue.roudBorders
+        .col-7.col-lg-3.mb-4.mb-lg-0(data-aos="flip-right")
+          .crd.crd-darkBlue.roudBorders.hg-100
             img(src='@/assets/curso/tema1/t1_17.svg' alt='AvatarTop', style="width:90px;").m-auto.mb-4 
             p.text-center.text-white.mb-0 Brindar información acerca del estrés y sus consecuencias inmediatas y en el largo plazo.
-        .col-7.col-lg-3
-          .crd.crd-darkBlue.roudBorders
+        .col-7.col-lg-3(data-aos="flip-right")
+          .crd.crd-darkBlue.roudBorders.hg-100
             img(src='@/assets/curso/tema1/t1_17.svg' alt='AvatarTop', style="width:90px;").m-auto.mb-4 
-            p.text-center.text-white.mb-0 Brindar información acerca del estrés y sus consecuencias inmediatas y en el largo plazo.
+            p.text-center.text-white.mb-0 Reconstruir y comprender lo que ha pasado, ayudando a la persona afectada a organizar la información, a llenar los vacíos que la crísis genera con información clara, veraz y detallada. 
 
     .bg_waves_avatar.mb-4
       .row.justify-content-center
@@ -409,55 +409,9 @@
       .col-lg-6.mb-4.mb-lg-0
         h3.pill Seguimiento
         p Al terminar todas las acciones que permitan regular a la persona, se invita a entablar contacto posterior para poder apoyar en un corto o mediano plazo, cualquier tipo de situación derivada de los acontecimientos vividos. Este periodo de seguimiento puede ser realizado por la misma persona que prestó la ayuda o con el apoyo de un profesional en salud mental, para lo cual se orienta a la persona para que realice las gestiones pertinentes para obtener cita con psicología o psiquiatría, según sea el caso.
-      .col-lg-6
+      .col-lg-6(data-aos="zoom-in")
         figure
-          img(src="@/assets/curso/tema1/t1_19.jpg", alt="alt").m-auto
-
-
-              
-
-
-
-
-
-
-
-              
-
-
-
-
-
-    
-
-
-        
-
-
-      
-        
-
-      
-
-      
-
-
-
-
-
-                  
-
-
-
-
-                  
-
-     
-
-
-
-
-      
+          img(src="@/assets/curso/tema1/t1_19.jpg", alt="alt").m-auto  
       
 
            

@@ -66,7 +66,7 @@
         .crd.crd-verde      
           p.mb-0 Estas reacciones frente al daño suelen ser normales y tienden a desaparecer con el tiempo, sin embargo, algunas secuelas derivadas de estos episodios de exposición al trauma pueden #[span.txt-blue dejar secuelas en el largo plazo] y es necesario que las personas y sus familias así lo entiendan y si las manifestaciones perduran por más de una algunas personas, deben buscar apoyo psicológico prioritario.
 
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/tema2/t2_06.jpg", alt="alt").m-auto
 
@@ -74,19 +74,19 @@
 
     .row.justify-content-center.gx-0.mb-4
       .col-lg-4
-        .crd.grad1.crd--100
+        .crd.grad1.crd--100(data-aos="flip-right")
           figure.mb-4
             img(src="@/assets/curso/tema2/t2_07.svg", alt="alt", style="width:100px;")
           h4.txt-mint.mb-4 Reacciones intrusivas
           p.text-white Son formas en las que la experiencia traumática vuelve a la memoria. Estas reacciones incluyen pensamientos o imágenes mentales perturbadores del evento (por ejemplo, representación mental de lo que vio) o sueños de lo que sucedió. 
       .col-lg-4
-        .crd.crd-deepBlue.crd--100
+        .crd.crd-deepBlue.crd--100(data-aos="flip-right")
           figure.mb-4
             img(src="@/assets/curso/tema2/t2_08.svg", alt="alt", style="width:100px;")
           h4.txt-mint.mb-4 Reacciones de evitación y retraimiento
           p.text-white Son formas que las personas usan para mantenerse alejados o protegidos de la angustia. Estas reacciones incluyen tratar de evitar hablar, pensar y tener sentimientos sobre el evento traumático y evitar cualquier situación que le traiga a la memoria el evento, como lugares y personas relacionadas con lo que sucedió.  
       .col-lg-4
-        .crd.grad1.crd--100
+        .crd.grad1.crd--100(data-aos="flip-right")
           figure.mb-4
             img(src="@/assets/curso/tema2/t2_09.svg", alt="alt", style="width:100px;")
           h4.txt-mint.mb-4 Reacciones de excitación física
@@ -137,10 +137,9 @@
               p Esta estrategia utiliza mecanismos de evasión de la realidad que le ayudan a disminuir el dolor o sufrimiento que le produce la situación. 
               p Drogas, alcohol, exceso de comida, actividad sexual desmedida, pueden ser formas de evitar enfrentar el problema.    
             .row(titulo="Reevaluación positiva")             
-              p La persona busca encontrar los saldos pedagógicos o aspectos positivos que la situación estresante haya podido dejar.    
-              
+              p La persona busca encontrar los saldos pedagógicos o aspectos positivos que la situación estresante haya podido dejar.              
 
-        .col-lg-5
+        .col-lg-5(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/tema2/t2_11.png", alt="alt", style="width:500px;").m-auto
 
@@ -156,9 +155,9 @@
           .dots.d-none.d-lg-block
           .cp_title 
             .crd.crd-verde
-              p.mb-0  Los recursos con los cuales cuenta una persona para manejar, enfrentar y superar una crisis son diversos, ya que cada uno conoce formas efectivas de regularse, sin embargo, #[span.txt-blue existe una serie de estrategias que pueden ser muy útiles a la hora de enfrentar la adversidad], las que se presentan en el siguiente recurso de aprendizaje:
+              p.mb-0 Las técnicas de respiración son ejercicios simples, con base científica y al alcance de todos, que permiten modificar rápidamente el sistema nervioso autónomo, la respuesta al estrés, el estado de ánimo y el nivel de energía, el objetivo de estas técnicas es empoderar a las personas proporcionándoles una poderosa herramienta para el bienestar y el cuidado personal. 
 
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/tema2/t2_12.jpg", alt="alt").m-auto
 
