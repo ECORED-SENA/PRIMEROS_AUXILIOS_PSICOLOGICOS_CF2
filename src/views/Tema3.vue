@@ -147,7 +147,7 @@
             | Intentar descansar (entre 7 a 8 horas continuas en la noche). 
           li 
             i.fas.fa-check-circle
-            | Uilizar las técnicas de respiración. 
+            | Utilizar las técnicas de respiración. 
           li 
             i.fas.fa-check-circle
             | Compartir con familia y amigos.  

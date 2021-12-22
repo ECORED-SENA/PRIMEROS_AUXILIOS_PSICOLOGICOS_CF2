@@ -317,7 +317,7 @@
                 .col-8
                   img(src='@/assets/curso/tema1/t1_14.svg' alt='AvatarTop', style="width:90px;").m-auto
               h4.text-center Identificación de problemas
-              p.text-center Estado emocional actual: estrés, pánico, agresividad; estado cognitivo desubicación, distorsión de la realidad, confusión, negación, culpa.
+              p.text-center Estado emocional actual: estrés, pánico, agresividad; estado cognitivo, desubicación, distorsión de la realidad, confusión, negación, culpa.
 
             .crd.crd-white.crd--100.p-4
               .row.justify-content-center.mb-4
